@@ -21,7 +21,7 @@ repository               : "lebinary/lebinary.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.jpg"
+  avatar           : "profile.png"
   name             : "Binh Le"
   pronouns         : # example: "she/her"
   bio              : "Sofrware Developer"
