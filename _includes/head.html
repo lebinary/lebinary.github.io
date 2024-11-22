@@ -1,5 +1,5 @@
 {% include base_path %}
-<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+<meta http-equiv="Content-Security-Policy" content="{% if jekyll.environment == 'development' %}{% else %}upgrade-insecure-requests{% endif %}">
 <meta charset="utf-8">
 
 {% include seo.html %}

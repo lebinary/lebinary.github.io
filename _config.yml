@@ -12,8 +12,8 @@ title                    : "Binh Le"
 title_separator          : "-"
 name                     : &name "Binh Le"
 description              : &description "personal description"
-url                      : https://lebinary.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
+url: http://localhost:4000                  # for development
+# url: https://lebinary.github.io          # for productionbaseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "lebinary/lebinary.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.

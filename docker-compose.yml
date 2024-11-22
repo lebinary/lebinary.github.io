@@ -1,13 +1,14 @@
 version: "3"
 services:
-  jekyll:
-    build: .
-    ports:
-      - "4000:4000"
-      - "35729:35729"
-    volumes:
-      - .:/usr/src/app
-    command: bundle exec jekyll serve --host 0.0.0.0 --watch --force_polling
-    environment:
-      - JEKYLL_ENV=development
-    tty: true
+ jekyll:
+   build: .
+   ports:
+     - "4000:4000"
+     - "35729:35729"
+   volumes:
+     - .:/usr/src/app
+   command: bundle exec jekyll serve --host 0.0.0.0 --watch --force_polling
+   environment:
+     - JEKYLL_ENV=development
+     - PORT=4000
+   tty: true
