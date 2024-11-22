@@ -16,7 +16,7 @@ en: &DEFAULT_EN
   meta_label                 :
   tags_label                 : "Tags:"
   categories_label           : "Categories:"
-  date_label                 : "Published:"
+  date_label                 : "Date:"
   comments_label             : "Leave a Comment"
   comments_title             : "Comments"
   more_label                 : "Learn More"
@@ -84,7 +84,7 @@ es: &DEFAULT_ES
   comment_form_website_label : "Página web (opcional)"
   comment_btn_submit         : "Enviar comentario"
   comment_btn_submitted      : "Enviado"
-  comment_success_msg        : "¡Gracias por tu comentario! Aparecerá en la página cuando sea aprobado." 
+  comment_success_msg        : "¡Gracias por tu comentario! Aparecerá en la página cuando sea aprobado."
   comment_error_msg          : "Lo sentimos, ha habido un error con tu solicitud. Por favor, asegúrate de rellenar todos los campos obligatorios e inténtalo de nuevo."
   loading_label              : "Cargando..."
 es-ES:

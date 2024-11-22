@@ -26,7 +26,7 @@ author:
   pronouns         : # example: "she/her"
   bio              : "Sofrware Developer"
   location         : "Saigon"
-  employer         : "University of Texas at Austin"
+  employer         : "The University of Texas at Austin"
   uri              : # URL
   email            : "binhle@utexas.edu"
 
@@ -224,6 +224,9 @@ collections:
   experience:
     output: true
     permalink: /:collection/:path/
+  education:
+    output: true
+    permalink: /:collection/:path/
 
 
 # These settings control how pages and collections are included in the site
@@ -278,10 +281,17 @@ defaults:
       path: ""
       type: experience
     values:
-      layout: talk
+      layout: single
       author_profile: true
       share: true
-
+  # _education
+  - scope:
+      path: ""
+      type: education
+    values:
+      layout: single
+      author_profile: true
+      share: true
 
 # Sass/SCSS
 sass:
