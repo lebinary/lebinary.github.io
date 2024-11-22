@@ -14,17 +14,20 @@ main:
   - title: "Education"
     url: /education/
 
-  - title: "Teaching"
-    url: /teaching/
+  - title: "Projects"
+    url: /projects/
 
-  - title: "Portfolio"
-    url: /portfolio/
+  # - title: "Teaching"
+  #   url: /teaching/
 
-  - title: "Blog Posts"
-    url: /year-archive/
+  # - title: "Portfolio"
+  #   url: /portfolio/
+
+  # - title: "Blog Posts"
+  #   url: /year-archive/
 
   - title: "CV"
     url: /cv/
 
-  - title: "Guide"
-    url: /markdown/
+  # - title: "Guide"
+  #   url: /markdown/
