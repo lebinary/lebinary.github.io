@@ -1,5 +1,5 @@
 ---
-title: "Vingroup BigData Institue"
+title: "Vingroup BigData Institute"
 collection: experience
 link: https://vinbigdata.com/en
 permalink: /experience/2020-11-01-experience-0
