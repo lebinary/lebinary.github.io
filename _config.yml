@@ -156,6 +156,9 @@ include:
   - .htaccess
   - _pages
   - files
+  - assets/pdfs
+  - "**/*.pdf"  # Add this line
+
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -304,7 +307,12 @@ defaults:
       author_profile: true
       share: true
 
-    # Sass/SCSS
+  # assets/pdfs
+  - scope:
+      path: "assets/pdfs"
+    values:
+      pdf: true
+  # Sass/SCSS
 
 # Sass/SCSS
 sass:
