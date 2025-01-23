@@ -5,7 +5,7 @@ link: https://www.lexer.io/
 permalink: /experience/2022-04-10-experience-2
 role: Software Developer
 from_date: 2022-04-10
-to_date: Present
+to_date: 2024-11-31
 ---
 
 - Contributed to <a href="https://learn.lexer.io/landing-page/lexi">LexiAI</a> development, a multi-provider LLM wrapper powering platform-
